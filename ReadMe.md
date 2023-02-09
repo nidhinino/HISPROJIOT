@@ -16,13 +16,15 @@ Note:Our local machine which we use is Ubuntu 22.04 inside Oracle Virtual box
 
 The original architecture proposes an idea of sending the data from the RIOT sensor driver to the MQTT broker in the local machine and also the RIOT has a border router which can be configured in it and then to the AWS via a MQTT broker present in AWS, thereby we have a transparent bridge/gateway established between them.
 
-![Untitled](IOT%20Microcontroller%20to%20Cloud%20d99c440828924c82a8d4d2370a5702e1/Untitled.png)
+![Untitled](IOT%20Microcontroller%20to%20Cloud%20d99c440828924c82a8d4d2370a5702e1/Untitled.png) 
+RIOT-->MQTT-->AWS IOT CORE
 
 ### Our Architecture
 
 Our Architecture eliminates the MQTT broker in the local machine and we just have the MQTT broker in AWS which is located inside AWS IoT core and we just push the messages from grenoble system.
 
 ![Untitled](IOT%20Microcontroller%20to%20Cloud%20d99c440828924c82a8d4d2370a5702e1/Untitled%201.png)
+RIOT-->AWS IOT CORE
 
 # AWS SetUp
 
