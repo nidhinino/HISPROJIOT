@@ -1,5 +1,5 @@
 #!/bin/bash
-
+Original Tutorial Link: https://www.iot-lab.info/learn/tutorials/riot/riot-public-ipv6-a8-m3/
 # sh term1.sh nnayak <pass> <channel>
 
 login=$1
