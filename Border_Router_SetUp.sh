@@ -1,6 +1,6 @@
 #!/bin/bash
 Original Tutorial Link: https://www.iot-lab.info/learn/tutorials/riot/riot-public-ipv6-a8-m3/
-# sh term1.sh nnayak <pass> <channel>
+# sh Border_Router_SetUp.sh <login> <pass> <channel>
 
 login=$1
 pass=echo "*******"
