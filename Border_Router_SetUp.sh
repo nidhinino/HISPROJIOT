@@ -3,7 +3,7 @@ Original Tutorial Link: https://www.iot-lab.info/learn/tutorials/riot/riot-publi
 # sh Border_Router_SetUp.sh <login> <pass> <channel>
 
 login=$1
-pass=echo "*******"
+pass=$2
 channel=$3
 
 echo "login: $login"
